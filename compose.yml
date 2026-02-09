@@ -19,7 +19,7 @@ services:
   app:
     build: .
     depends_on:
-      mariadb:
+      db:
         condition: service_healthy
     environment:
       DB_HOST: mariadb
