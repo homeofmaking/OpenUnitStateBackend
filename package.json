@@ -1,0 +1,25 @@
+{
+  "name": "openunitstate-backend",
+  "version": "1.0.0",
+  "description": "Backend service for OpenUnitState",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node app.js"
+  },
+  "dependencies": {
+    "mqtt": "^4.3.7",
+    "mysql": "^2.18.1"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "keywords": [
+    "mqtt",
+    "mysql",
+    "iot",
+    "unit-state"
+  ],
+  "author": "",
+  "license": "GPL-3.0-only"
+}
