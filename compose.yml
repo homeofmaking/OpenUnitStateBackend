@@ -1,5 +1,6 @@
+name: openunitstate-backend
 services:
-  mariadb:
+  db:
     image: mariadb:latest
     environment:
       MYSQL_ROOT_PASSWORD: ${DB_ROOT_PASSWORD}
